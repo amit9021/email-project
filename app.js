@@ -35,13 +35,13 @@ app.post("/", function (req, res) {
   };
   var jasonData = JSON.stringify(data);
 
-  //   const appid = "eaac99123124b3767619219e22c02c54-us14";
+  //   const appid = "*****";
   const url = "https://us14.api.mailchimp.com/3.0/lists/786f9921f2";
   //   const audianceId= "786f9921f2";
 
   const options = {
     method: "POST",
-    auth: "Amit:eaac99123124b3767619219e22c02c54-us14",
+    auth: "Amit:*******",
   };
 
   const request = https.request(url, options, function (response) {
